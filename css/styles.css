@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Landing Page */
+.landing-page {
+	background-color: black;
+	height: 100vh;
+}
+
+.about-btn, .projects-btn, .contact-btn {
+	border: 2px solid white;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+.about-btn, .projects-btn {
+	margin-right: 80px;
+}
+
+.about-btn {
+	margin-left: 10px;
+}
+
+.about-me .title, .contact .title, .projects .title {
+	padding-top: 15px;
+}
+
+.landing-page .title, .subtitle{
+	color: white;
+	text-align: center;
+}
+
+.landing-page .title {
+	padding-top: 300px;
+	font-size: 70px;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.landing-page .subtitle {
+	font-size: 25px;
+	font-family: 'Courier Prime', monospace;
+}
+
+.buttons {
+	width: 400px;
+	margin: 50px auto;
+}
+
+/* About me */
+.about-me {
+	background-color: rgb(226, 226, 226);
+	height: 100vh;
+}
+
+.about-me .text {
+	margin: 50px;
+	font-size: 25px;
+}
+
+.about-me ul {
+	width: 400px;
+	margin: 50px 100px;
+}
+
+.about-me .title, .skills-header {
+	text-align: center;
+	font-size: 45px;
+}
+
+.skills {
+	font-size: 25px;
+	font-weight: 1;
+	font-family: 'Courier Prime', monospace;
+}
+
+.skills-imgs {
+	padding: none;
+}
+
+/* Projects */
+.projects {
+	height: 100vh;
+	text-align: center;
+	margin: 0px 100px;
+}
+
+.project1, .project2{
+	margin: 100px 0px;
+}
+
+/* Contact Page */
+.contact {
+	background-color: rgb(197, 197, 197);
+	height: 35vh;
+}
+
+img {
+	height: auto;
+	width: 10%;
+}
+
+.contact {
+	text-align: center;
+}
+
+
