@@ -69,6 +69,7 @@ nav a:hover {
 .about-me ul {
 	width: 400px;
 	margin: 50px 100px;
+	float: left;
 }
 
 .about-me .title, .skills-header {
@@ -83,7 +84,20 @@ nav a:hover {
 }
 
 .skills-imgs {
-	padding: none;
+	margin-top: 40px;
+}
+
+.css-img {
+	height: auto;
+	width: 7%;
+}
+
+.css-img, .html-img {
+	margin-bottom: 20px;
+}
+
+.html-img, .css-img, .git-img, .js-img, .python-img {
+	margin-right: 90px;
 }
 
 /* Projects */
