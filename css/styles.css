@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Landing Page */
 .landing-page {
 	background-color: black;
@@ -105,10 +109,25 @@ nav a:hover {
 	height: 100vh;
 	text-align: center;
 	margin: 0px 100px;
+	font-size: 18px;
 }
 
 .project1, .project2{
-	margin: 100px 0px;
+	margin: 50px 0px;
+}
+
+.project-btn {
+	border: 2px solid black;
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	display: inline-block;
+	margin: 20px;
+}
+
+.projects a:hover {
+	background-color: black;
+	color: white;
 }
 
 /* Contact Page */
@@ -125,5 +144,4 @@ img {
 .contact {
 	text-align: center;
 }
-
 
