@@ -100,8 +100,12 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 
-.html-img, .css-img, .git-img, .js-img, .python-img {
-	margin-right: 90px;
+.html-img, .css-img, .git-img, .python-img {
+	margin-right: 50px;
+}
+
+.js-img {
+	margin-right: 30px;
 }
 
 /* Projects */
@@ -113,7 +117,7 @@ nav a:hover {
 }
 
 .project1, .project2{
-	margin: 50px 0px;
+	margin: 40px 0px;
 }
 
 .project-btn {
