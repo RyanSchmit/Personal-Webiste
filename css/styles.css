@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 html {
@@ -12,13 +13,27 @@ html {
 .landing-page {
 	background-color: black;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+	margin: 50px 0px;
+	gap: 5px;
 }
 
 .about-btn, .projects-btn, .contact-btn {
 	border: 2px solid white;
+	border-radius: 16px;
 	text-decoration: none;
-	padding: 5px;
+	padding: 5px 10px;
 	color: white;
+	font-size: 30px;
 }
 
 nav a:hover {
@@ -26,37 +41,18 @@ nav a:hover {
 	color: black;
 }
 
-.about-btn, .projects-btn {
-	margin-right: 80px;
-}
-
-.about-btn {
-	margin-left: 10px;
-}
-
-.about-me .title, .contact .title, .projects .title {
-	padding-top: 15px;
-}
-
 .landing-page .title, .subtitle{
 	color: white;
-	text-align: center;
 }
 
 .landing-page .title {
-	padding-top: 300px;
-	font-size: 70px;
+	font-size: 90px;
 	font-family: 'Brush Script MT', cursive;
 }
 
 .landing-page .subtitle {
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Courier Prime', monospace;
-}
-
-.buttons {
-	width: 400px;
-	margin: 50px auto;
 }
 
 /* About me */
@@ -89,6 +85,7 @@ nav a:hover {
 
 .skills-imgs {
 	margin-top: 40px;
+	display: flex;
 }
 
 .css-img {
@@ -127,6 +124,7 @@ nav a:hover {
 	color: black;
 	display: inline-block;
 	margin: 20px;
+	border-radius: 16px;
 }
 
 .projects a:hover {
