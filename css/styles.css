@@ -83,11 +83,10 @@ nav a:hover {
 	display: flex;
 	justify-content: center;
 	gap: 10px;
-	flex-wrap: wrap;
 }
 
-/* fix */
-.css-img {
+/* fix and use flex-wrap*/
+.skills-imgs img {
 	height: auto;
 	width: 7%;
 } 
@@ -126,10 +125,12 @@ nav a:hover {
 /* Contact Page */
 .contact {
 	background-color: rgb(197, 197, 197);
-	height: 35vh;
+	height: auto;
+	width: 100vw;
+	padding-bottom: 10px;
 }
 
-img {
+.contact img {
 	height: auto;
 	width: 10%;
 }
