@@ -78,17 +78,18 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-/* fix image distortion and use flex-wrap*/
+/* center with flexbox */
 .skills-imgs {
 	margin-top: 40px;
 	display: flex;
-	justify-content: center;
-	gap: 10px;
+	gap: 20px;
+	width: 700px;
+	margin-left: 300px;
 }
 
 .skills-imgs img {
 	height: auto;
-	width: 7%;
+	width: 100%;
 } 
 
 /* Projects */
