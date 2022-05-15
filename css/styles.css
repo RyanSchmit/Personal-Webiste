@@ -78,6 +78,7 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+/* fix image distortion and use flex-wrap*/
 .skills-imgs {
 	margin-top: 40px;
 	display: flex;
@@ -85,7 +86,6 @@ nav a:hover {
 	gap: 10px;
 }
 
-/* fix and use flex-wrap*/
 .skills-imgs img {
 	height: auto;
 	width: 7%;
